@@ -14,10 +14,10 @@ h1 {
 }
 
 #text {
-  padding-left: 80px;
-  padding-right: 80px;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 16px;
+  line-height: 2;
 }
 
 #contact {
@@ -26,4 +26,22 @@ h1 {
 
 #parImage {
   float: right;
+}
+
+.footStyle {
+  text-align: center;
+  border-top-style: solid;
+  border-top-width: 2px;
+}
+
+.footRight {
+  margin-left: 5%;
+}
+
+.footLeft {
+  /*margin-right: 5%;*/
+}
+
+#logoPic {
+  float: left;
 }
