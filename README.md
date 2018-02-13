@@ -1,2 +1,2 @@
 # Code Challenge
-Building a static website with a few basic animations.
+Building a prototype for an interactive static website.
