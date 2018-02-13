@@ -20,7 +20,7 @@ $(document).ready(() => {
   $('#textScroll').click(function(){
     $('html, body').animate({
       scrollTop: $("#text").offset().top
-    }, 1000);
+    }, 500);
   });
   $('#contactScroll').click(function(){
     $('html, body').animate({
