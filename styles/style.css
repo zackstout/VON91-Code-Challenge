@@ -5,7 +5,7 @@
   background: url('https://cdn.pixabay.com/photo/2015/08/03/02/35/wall-872826_960_720.jpg');
   background-repeat: no-repeat;
   opacity: 0.82;
-  filter: brightness(0.6);
+  filter: brightness(0.83);
   background-size: cover;
   margin: 0px;
   padding: 0px;
@@ -19,6 +19,8 @@
 
 .navbar-header2 {
   margin-top: 40px;
+  filter: brightness(1);
+  opacity: 1;
 }
 
 .navbar-header2:hover {
@@ -50,6 +52,8 @@
   color: white;
   text-align: center;
   font-family: Georgia;
+  filter: brightness(1);
+  opacity: 1;
 }
 
 #pics {
@@ -59,7 +63,7 @@
   background: url('https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fcdn-img.instyle.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F684xflex%2Fpublic%2Fimages%2F2017%2F12%2Fgettyimages-539573922.jpg%3Fitok%3Dao0lroMk&w=700&q=85');
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.84;
+  opacity: 0.74;
   filter: brightness(0.72);
 }
 
