@@ -14,8 +14,8 @@ var pics = ['https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fcdn-im
 $(document).ready(() => {
   console.log('we in');
 
-  $('#backImage').hide();
-  $('#backImage3').hide();
+  $('#pics2').hide();
+  $('#pics3').hide();
 
   // You can't pass parameters to these:
   $('.goBack').click(goBack)
@@ -34,15 +34,35 @@ $(document).ready(() => {
 
 function goBack() {
   var len = pics.length;
+  var pic;
+
+  var oldPic;
+  if (picIndex === 0) {
+    oldPic = '#pics';
+  } else {
+    oldPic = '#pics' + picIndex + 1;
+  }
+
+  $(oldPic).hide();
+
+  // console.log(picIndex);
+
   picIndex = (picIndex - 1) % len;
   if (picIndex === -1) {
     picIndex = len - 1;
   }
-  $('#pics').css('background-image', 'url(' + pics[picIndex] + ')');
+  // $('#pics').css('background-image', 'url(' + pics[picIndex] + ')');
 
-  
+
   // console.log('back', picIndex);
-  // var pic = '#pic' + picIndex + 'Container';
+  if (picIndex === 0) {
+    pic = '#pics';
+  } else {
+    pic = '#pics' + picIndex + 1;
+  }
+  console.log(pic);
+  $(pic).show();
+  $(pic).animate({left: '300px'}, 2000);
   // console.log($(pic).text());
   // $(pic).show();
   // for (var i=0; i < len; i++) {
