@@ -16,11 +16,16 @@
 .navbar-header {
   margin-top: 10px;
 }
+/*
+.navbar-brand {
+  min-width: 50px;
+}*/
 
 .navbar-header2 {
   margin-top: 40px;
   filter: brightness(1);
   opacity: 1;
+  min-width: 70px;
 }
 
 .navbar-header2:hover {
@@ -95,7 +100,12 @@
   width: auto;
 }
 
-.icon:hover {
+.icon1 {
+  height: 21.5px;
+  width: auto;
+}
+
+.icon:hover, .icon1:hover {
   cursor: pointer;
   opacity: 0.4;
 }
