@@ -51,9 +51,9 @@
 }
 
 
-#picText {
+.picText {
   font-size: 58px;
-  margin: -70px 16% 0px 9%;
+  /*margin: -70px 16% 0px 9%;*/
   color: white;
   text-align: center;
   font-family: Georgia;
@@ -61,13 +61,32 @@
   opacity: 1;
 }
 
-#pics {
+/*#pics {
   height: 400px;
   padding-top: 200px;
 
   background: url('https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fcdn-img.instyle.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F684xflex%2Fpublic%2Fimages%2F2017%2F12%2Fgettyimages-539573922.jpg%3Fitok%3Dao0lroMk&w=700&q=85');
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.74;
+  filter: brightness(0.72);
+}*/
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item {
+  /*padding-top: 100px;*/
+  height: 400px;
+}
+
+.item img {
+  display: block;
+  margin: auto;
   opacity: 0.74;
   filter: brightness(0.72);
 }
